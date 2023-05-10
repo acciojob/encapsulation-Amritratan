@@ -2,7 +2,13 @@ package com.driver;
 
 public class RWOnly {
 //    Task 2
-    private String name;
-    private int roll_no;
+     private String name;
+    // Task 5
+    void writeOnly(String name){
+        this.name=name;
+    }
+    String readOnly(){
+        return name;
+    }
     
 }
