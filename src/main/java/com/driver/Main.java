@@ -2,7 +2,7 @@ package com.driver;
 
 public class Main {
   // TAsk 3
-  public static void main(String[] args) {
+  public static void main(String[] args) throws Exception {
     RWOnly readWrite=new RWOnly();
     //TAsk 4
    // System.out.println(readWrite.name="abc");
