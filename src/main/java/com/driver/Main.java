@@ -1,6 +1,6 @@
 package com.driver;
 
-public class Main extends RWOnly {
+public class Main {
   // TAsk 3
   public static void main(String[] args) {
     RWOnly readWrite=new RWOnly();
