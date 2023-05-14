@@ -8,8 +8,8 @@ public class Main {
    // System.out.println(readWrite.name="abc");
     // after that we get error: name has private access in com.driver.RWOnly
     //Task 6
-    readWrite.writeOnly("xyz");
-    System.out.println(readWrite.readOnly());
+    readWrite.setName("xyz");
+    System.out.println(readWrite.getName());
   }
 
 }
