@@ -4,10 +4,10 @@ public class RWOnly {
 //    Task 2
      private String name;
     // Task 5
-    void setName(String name){
+    public void setName(String name){
         this.name=name;
     }
-    String getName(){
+    public String getName(){
         return name;
     }
     
